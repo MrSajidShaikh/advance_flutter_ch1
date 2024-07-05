@@ -1,16 +1,23 @@
-# advance_flutter_ch1
+<h3 align="center"> 1. Light Theme </h3>
 
-A new Flutter project.
+###
 
-## Getting Started
+<h1 align="left"></h1>
 
-This project is a starting point for a Flutter application.
+###
+<div align="center">
+<img src = "https://github.com/MrSajidShaikh/advance_flutter_ch1/assets/149478269/221bb9a2-a6be-4fae-ba55-235a25f52dfa" width = 22% height = 35%>
 
-A few resources to get you started if this is your first Flutter project:
+###
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<h3 align="center"> 2. Dark Theme </h3>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+###
+
+<h1 align="left"></h1>
+
+###
+<div align="center">
+<img src = "https://github.com/MrSajidShaikh/advance_flutter_ch1/assets/149478269/ceba1486-9662-44a3-9c06-45d9af889703" width = 22% height = 35%>
+
+###
