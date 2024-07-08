@@ -1,3 +1,4 @@
+import 'package:advance_flutter_ch1/utils/globals.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -66,5 +67,3 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
-
-bool isDark = false;
