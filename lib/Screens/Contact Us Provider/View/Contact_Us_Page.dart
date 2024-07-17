@@ -172,7 +172,10 @@ class ContactUsPage extends StatelessWidget {
           const SizedBox(width: 34),
           Text(
             text,
-            style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
+            style: const TextStyle(
+              fontSize: 18,
+              fontWeight: FontWeight.w500,
+            ),
           )
         ],
       ),
