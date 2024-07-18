@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-
 List gallery = [
   {
     'photo': 'assets/images/slider(1).jpg',
