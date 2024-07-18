@@ -10,13 +10,16 @@ class Safegallery extends StatelessWidget {
   Widget build(BuildContext context) {
     double height = MediaQuery.of(context).size.height;
     double width = MediaQuery.of(context).size.width;
-    return  Scaffold(
+    return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Colors.black,
-        leading:  Icon(Icons.arrow_back,color: Colors.white,),
-        title: Text(
+        leading: const Icon(
+          Icons.arrow_back,
+          color: Colors.white,
+        ),
+        title: const Text(
           'Recent',
           style: TextStyle(
             fontSize: 20,
@@ -27,7 +30,7 @@ class Safegallery extends StatelessWidget {
       ),
       body: Column(
         children: [
-          Divider(
+          const Divider(
             thickness: 2,
             color: Colors.grey,
           ),
@@ -35,7 +38,7 @@ class Safegallery extends StatelessWidget {
               padding: const EdgeInsets.all(12.0),
               child: Column(
                 children: [
-                  Row(
+                  const Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
@@ -52,27 +55,26 @@ class Safegallery extends StatelessWidget {
                             fontWeight: FontWeight.w500,
                             fontSize: 15),
                       ),
-
                     ],
                   ),
                   Wrap(
                     children: [
                       ...List.generate(
                           safeGallery.length,
-                              (index) => Padding(
-                            padding: const EdgeInsets.all(13.0),
-                            child: Container(
-                              height: height * 0.09,
-                              width: width * 0.16,
-                              decoration: BoxDecoration(
-                                image: DecorationImage(
-                                  image: AssetImage(safeGallery[index]),
-                                  fit: BoxFit.cover,
+                          (index) => Padding(
+                                padding: const EdgeInsets.all(13.0),
+                                child: Container(
+                                  height: height * 0.09,
+                                  width: width * 0.16,
+                                  decoration: BoxDecoration(
+                                    image: DecorationImage(
+                                      image: AssetImage(safeGallery[index]),
+                                      fit: BoxFit.cover,
+                                    ),
+                                    borderRadius: BorderRadius.circular(5),
+                                  ),
                                 ),
-                                borderRadius: BorderRadius.circular(5),
-                              ),
-                            ),
-                          ))
+                              ))
                     ],
                   ),
                 ],

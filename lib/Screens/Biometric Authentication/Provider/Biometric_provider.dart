@@ -24,7 +24,7 @@ class GalleryProvider extends ChangeNotifier{
 
     if (password) {
       Navigator.of(context).push(MaterialPageRoute(
-        builder: (context) => Safegallery(),
+        builder: (context) => const Safegallery(),
       ));
     } else {
     }
