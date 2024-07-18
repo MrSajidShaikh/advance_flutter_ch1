@@ -1,5 +1,3 @@
-import 'package:flutter/foundation.dart';
-
 class Photo
 {
   late String title, url;
