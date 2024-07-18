@@ -4,8 +4,7 @@ import 'package:local_auth/local_auth.dart';
 
 import '../View/SafeGallery.dart';
 
-class GalleryProvider extends ChangeNotifier{
-
+class GalleryProvider extends ChangeNotifier {
   final LocalAuthentication auth = LocalAuthentication();
   bool password = false;
 
@@ -26,9 +25,6 @@ class GalleryProvider extends ChangeNotifier{
       Navigator.of(context).push(MaterialPageRoute(
         builder: (context) => const Safegallery(),
       ));
-    } else {
-    }
+    } else {}
   }
-
-
 }
