@@ -25,7 +25,7 @@
 
 
 ###
-<h3 align="center"> 1.3 Splash Screen </h3>
+<h3 align="center"> 1.3 Contact Us Page </h3>
 
 ###
 
