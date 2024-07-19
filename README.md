@@ -25,3 +25,20 @@
 
 
 ###
+<h3 align="center"> 1.3 Splash Screen </h3>
+
+###
+
+<h1 align="left"></h1>
+
+###
+<div align="center">
+<img src = "https://github.com/user-attachments/assets/7b31e50b-8556-4077-bc4b-87802cf54197" width = 22% height = 35%>
+<video src = "https://github.com/user-attachments/assets/3afcf13a-7ace-4922-ad3c-2b6194a7ee90">
+
+###
+<div align="center">
+<a href="https://github.com/MrSajidShaikh/quotes_app/blob/master/lib/screen/splash_screen.dart">-> 📂 Go To Dart File 📂 <-</a>
+</div>
+
+###
