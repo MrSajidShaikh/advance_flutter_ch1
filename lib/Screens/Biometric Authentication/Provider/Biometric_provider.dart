@@ -2,29 +2,25 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:local_auth/local_auth.dart';
 
-import '../View/SafeGallery.dart';
+class GalleryScreenProvider extends ChangeNotifier{
+  final localAuth = LocalAuthentication();
+  bool didAuthenticate = false;
 
-class GalleryProvider extends ChangeNotifier {
-  final LocalAuthentication auth = LocalAuthentication();
-  bool password = false;
-
-  Future<void> localUserAuthentication(BuildContext context) async {
+  Future<void> authentication() async {
     List<BiometricType> availableBiometrics;
     try {
-      availableBiometrics = await auth.getAvailableBiometrics();
-    } on PlatformException catch (e) {}
+      availableBiometrics = await localAuth.getAvailableBiometrics();
+    } on PlatformException catch (e) {
+      'device not supported';
+    }
     try {
-      final didAuthenticate = await auth.authenticate(
-        localizedReason: 'Verify with Fingerprint',
+      didAuthenticate = await localAuth.authenticate(
+        localizedReason: 'Please authenticate to access secure data',
       );
-      password = didAuthenticate;
+      didAuthenticate = didAuthenticate;
       notifyListeners();
-    } on PlatformException catch (e) {}
-
-    if (password) {
-      Navigator.of(context).push(MaterialPageRoute(
-        builder: (context) => const Safegallery(),
-      ));
-    } else {}
+    } on PlatformException catch (e) {
+      print(e);
+    }
   }
 }
