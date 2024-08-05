@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -17,7 +16,7 @@ class ChangeThemeScreenProvider extends ChangeNotifier {
     sharedPreferences.setBool('theme', value);
   }
 
-  ChangeThemeScreenProvider(bool theme){
+  ChangeThemeScreenProvider(bool theme) {
     isDark = theme;
     notifyListeners();
   }

@@ -49,12 +49,12 @@ class ChangeTheme extends StatelessWidget {
                   shape: BoxShape.circle,
                 ),
                 child: Image.asset(
-                  'assets/avtar2.png',
+                  'assets/images/User.png',
                   fit: BoxFit.cover,
                 ),
               ),
               const Text(
-                'Sahil',
+                'Sajid Shaikh',
                 style: TextStyle(
                   fontSize: 35,
                   letterSpacing: 2,
