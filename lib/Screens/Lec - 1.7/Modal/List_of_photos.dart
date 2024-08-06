@@ -61,7 +61,6 @@ List gallery = [
   },
 ];
 
-
 List safeGallery = [
   'assets/images/Photos/slider(1).jpg',
   'assets/images/Photos/slider(2).jpg',
