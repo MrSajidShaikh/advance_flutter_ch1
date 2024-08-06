@@ -7,6 +7,5 @@ class AppRoutes {
     // '/' : (context) => const ContactUsPage(),
     // '/' : (context) => const BiometricPage(),
     // '/' : (context) => const PhotoPage(),
-
   };
 }
