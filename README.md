@@ -146,7 +146,13 @@ return Consumer<Counter>(
 
 <img src="https://github.com/sanjuafre123/adv_flutter_ch1/assets/148860124/5dd9c104-239c-49ae-9af2-7b0753d3dbeb" height=65%>
 
+###
 
+# 1.5 One Time Intro Screen in Flutter 
+
+<img src="https://github.com/user-attachments/assets/4007b3ef-6160-46ec-ae4f-8aca2e303e68" height=65% width=22%>
+<img src="https://github.com/user-attachments/assets/519fac02-bb4c-4d4c-9c4a-8bcbcfcde358" height=65% width=22%>
+<img src="https://github.com/user-attachments/assets/25570e2e-c49b-4784-956a-390ef20b9fc0" height=65% width=22%>
 
 ###
 
